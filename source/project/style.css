@@ -1,0 +1,239 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+.conteiner {
+	margin: auto;
+	width: 1200px;
+}
+.main-header-nav {
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+	padding: 70px 0 70px;
+	/*border: 1px solid red;*/
+}
+.mian{
+	margin-bottom: 50px;
+}
+.main-header-nav a{
+	text-transform: uppercase;
+}
+.main-header-nav img {
+}
+
+.site-navigation{
+	width: 1000px;
+	margin: auto;
+	padding-top: 36px;
+	/*border: 1px solid red;*/
+}
+.site-navigation-item {
+	display: inline-block;
+	margin-right: 20px;
+	/*border: 1px solid red;*/
+}
+.item-dot {
+	width: 58px;
+	height: 58px;
+	background-color: #ff7931;
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 75px;
+}
+.visually-hidden{
+	display: none;
+}
+.headline {
+	margin: auto;
+	/*height: 740px;*/
+	/*width: 1440px;*/
+	text-align: center;
+	background: url(img/6.JPG) center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-top: 114px;
+	padding-bottom: 54px;
+}
+
+.headline h2 {
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 64px;
+	margin-bottom: 151px;
+}
+.headline a {
+	color: #fff;
+}
+
+.headline p {
+	display: block;
+	margin: auto;
+	width: 600px;
+	line-height: 2;
+}
+
+.reviews {
+	position: relative;
+	z-index: 2;
+	padding: 48px 0 56px;
+}
+
+.reviews h2{
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+
+.reviews-item {
+	display: inline-block;
+	width: 371px;
+	vertical-align: top;
+	margin-right: 18px;
+}
+
+.reviews-item img {
+	margin-bottom: 28px;
+}
+.reviews-item h3 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.reviews-item p {
+	font-size: 12px;
+	line-height: 1.5;
+	color: #202020;
+}
+
+.promo {
+	position: relative;
+	background: #f7f7f7;
+	text-align: center;
+	/*padding: 36px 0 46px;*/
+	font-size: 12px;
+	height: 600px;
+}
+
+.promo .conteiner {}
+.promo h2{
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 46px;
+}
+
+.promo h3{
+	font-family: 'Yeseva One', cursive;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.promo li {
+	/*margin-bottom: 102px;*/
+}
+.promo li p {
+	width: 362px;
+	margin: auto;
+}
+.promo li:after {
+	content: '';
+	margin: auto;
+	display: block;
+	background: #f7f7f7;
+	width: 100px;
+	height: 2px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.promo li:last-child:after {
+	height: 0px;
+	margin-bottom: 52px;
+}
+
+.promo a {
+	background: #ff7931;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 32px;
+	padding-right: 32px;
+	letter-spacing: 7px;
+
+}
+.circle {
+	width: 800px;
+	height: 800px;
+	border-radius: 50%;
+	position: absolute;
+	background: #fff;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	z-index: 0;
+}
+.text{
+	position: relative;
+	top: 55px;
+	z-index: 1;
+}
+
+footer {
+	position: relative;
+	top: 50px;
+	background: #575757;
+	color: #fff;
+	z-index: 2;
+	text-align: center;
+	padding-top: 36px;
+}
+footer a {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer-navigation-item{
+	display: inline-block;
+	margin-right: 20px;
+}
+.footer-navigation{
+	padding: 42px 0 50px; 
+}
+.footer-navigation:after{
+	content: '';
+	margin: auto;
+	display: block;
+	background: #f7f7f7;
+	width: 50%;
+	height: 2px;
+	margin-top: 32px;
+	/*margin-bottom: 32px;*/
+}
+
+.social-list{
+	width: 325px;
+	margin: auto;
+	padding-bottom: 47px;
+}
+
+.social-list-item{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
